@@ -1,1 +1,2 @@
 1. Any account that can change the password of domain admin is a domain admin. 
+      They may be in their own OU. Delegate control if you must. 
