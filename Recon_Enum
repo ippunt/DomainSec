@@ -1,0 +1,3 @@
+1. Nslookup domain.local will give you your DCs. Lowest latency for initial and then sites and services if present used for login. 
+2. Find Kerberos: set type=SRV; _kerberos._tcp.domain.local; Gives you your priority and weight for servers.  _ldap._tcp.domain.local    There may also be udp.
+      Findings here will likely be the same list of servers as within domain but weights and priorities will be listed and if they run these services. 
