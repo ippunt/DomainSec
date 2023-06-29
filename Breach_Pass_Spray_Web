@@ -1,5 +1,7 @@
 Basically spray attack against web interface 
-
+python ntlm_passwordspray.py -u <userfile> -f <fqdn> -p <password> -a <attackurl>
+There is more to it then this as you need classes and everything go to breach if you want full script
+__________________________________________________________________________________________________________
 def password_spray(self, password, url):
     print ("[*] Starting passwords spray attack using the following password: " + password)
     #Reset valid credential counter
