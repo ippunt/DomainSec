@@ -5,3 +5,9 @@ Find Kerberos: set type=SRV; _kerberos._tcp.domain.local; Gives you your priorit
 
 Passwords:
 net user myusername /domain
+
+
+
+Anti Enumeration Domain Admins.
+Do NOT: remove read from Authenticated Users and put a specific user with Read or the Group. It will not superceed. 
+You need to keep Authenticated Users and create a specific group or user account and remove read from them explicitly. Everything good!
